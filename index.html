@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta name="screen-orientation" content="portrait">
+<title>活动</title>
+<link rel="stylesheet" href="css/swiper.min.css">   <!-- 单个的swiper的css文件 -->
+<link rel="stylesheet" href="css/animate.min.css">  <!-- swiper动画css -->
+<link rel="stylesheet" href="css/index.css">    <!-- 自定义样式 -->
+<script src="js/swiper.min.js"></script>    <!-- 单个的swiper的js文件 -->
+<script src="js/swiper.animate.min.js"></script>  <!-- swiper动画js -->
+<script src="js/jquery.min.js"></script>  <!-- jquery插件 -->
+<style>
+    
+/*    .regular-radio {
+    display: none;
+}
+
+.regular-radio + label {
+    margin-right: 5px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 7px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.regular-radio:checked + label:after {
+    content: ' ';
+    width:8px;
+    height: 8px;
+    border-radius: 50px;
+    position: absolute;
+    top: 3px;
+    background: #99a1a7;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+    text-shadow: 0px;
+    left: 3px;
+    font-size: 32px;
+}
+
+.regular-radio:checked + label {
+    background-color: #e9ecee;
+    color: #99a1a7;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}*/
+
+  input[type=radio] {
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  vertical-align: middle;
+  width: 17px;
+  height: 17px;
+  }
+  input[type=checkbox]:checked,
+  input[type=radio]:checked {
+  background: #fff;
+  }
+  input[type=radio]:checked::after {
+  content: '';
+  display: block;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  background: #666;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  }
+</style>
+</head>
+<body>
+        <!-- 红包飘动特效 -->
+        <img src="images/h1.png" class="h1">
+            <img src="images/h2.png" class="h2">
+            <img src="images/h3.png" class="h3">
+            <img src="images/h4.png" class="h4">
+<div class="swiper-container" id="swiper">
+  <div class="swiper-wrapper" >
+            
+    <!-- 第一页 -->
+    <section class="swiper-slide">
+        <div class="main1">
+        <img src="images/1-bg.jpg" class="bg1">
+        <img src="images/1-1.png" class="main1-img ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.5s">
+        </div>
+        <div class="btn">
+        <a href="http://active.woaigo.com/home/index.php/Index/index3/"  id="success"><img src="images/1-2.png" class="click ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="3s"></a>
+        <img src="images/1-3.png" class="hand">
+        <img src="images/fd1.png" class="fd ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="1.5s">
+        </div>
+        <img src="images/logo.png" class="logo ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+        <img src="images/icon_up.png" id="tip"> 
+
+    </section>
+    <!-- 第二页 -->
+    <section class="swiper-slide page-2">
+       <div class="main2">
+        <div class="title2">
+            <img src="images/haoliyi.png" id="haoliyi" class="ani" swiper-animate-effect="tada" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+            <p class="p1 ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                凡在微信端填写个人信息进行到店预约，可在5.31-6.15期间领取开业红包
+            </p>
+            <img src="images/100.png" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s">
+            <img src="images/300.png" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"><br>
+            <img src="images/50.png" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.7s">
+            <img src="images/200.png" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.7s"><br>
+            <img src="images/50-1.png" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="2.2s">
+            <img src="images/100-1.png" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="2.2s"><br>
+            <img src="images/200-1.png" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="2.4s">
+            <img src="images/0.png" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="3.2s">
+            <a href="http://active.woaigo.com/home/index.php/Index/index31/"><img src="images/fd.png" id="fd1"></a>
+            <img src="images/here1.png" class="here">
+            </div>
+            </div>
+            <img src="images/icon_up.png" id="tip"> 
+
+    </section>
+    <!-- 第三页 -->
+    <section class="swiper-slide page-3">
+        <div class="main3">
+        <div class="title3">
+            <img src="images/haolier.png" id="haolier" class="ani" swiper-animate-effect="tada" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+            <p class="p3-1 ani"  swiper-animate-effect="zoomInRight" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                邀约您的好友也来进行登记，您还可领取不同规格的开业福袋
+            </p>
+            <img src="images/5w.png" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="1.5s"><br>
+            <img src="images/10w.png" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="2s"><br>
+            <img src="images/20w.png" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="2.5s">
+            <p class="p3-2 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.2s">福袋内容详情见我爱购商城微信公众账号文章；每档福袋均有多种规格,领取时根据您的喜好或现场库存情况进行领取；</p>
+            <p class="p3-3 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="4s">福袋领取方式：6月25日-6月26日期间到红都国际线下店凭手机号登记领取。</p>
+            <a href="http://active.woaigo.com/home/index.php/Index/index2/"><img src="images/fd1.png" id="fd3">
+            </a>
+            <img src="images/here.png" class="here3">
+            </div>
+            </div>
+            <img src="images/icon_up.png" id="tip"> 
+
+    </section>
+
+    <!-- 第四页 -->
+    <section class="swiper-slide page-4">
+            <div class="five">
+                
+
+    <div class="main4">
+    <div class="top">
+        <img src="images/2-1.jpg">
+    </div>
+        <form  method="post" id="myForm">
+            <p>我们可以称呼您：<span>（必填）</span></p>
+            <input type="text" name="username" id="name" onkeyup="value=value.replace(/[^\w\u4E00-\u9FA5]/g, '')" placeholder="汉字/字母/数字">
+            <p>先生/女士：<span>（必填）</span></p>
+            
+            
+            <p id="sex">
+            <input type="radio" name="sex" value='1'  id="sir"/>
+            <label value='1' >先生</label>
+            
+            <input type="radio"  value='0'  name="sex" id="miss"/>
+            <label value='0'>女士</label>
+            </p>
+
+            <p>我们在这里等您：<span>（必填）</span></p>
+            <p id="hongdu">
+            <input type="radio" name="address" value="1" id="address"/>
+            <label >红都国际家居建材020体验馆</label>
+            </p>
+            <p>您预计到店的时间：<span>（必填）格式：20160716</span></p>
+            <input type="number" name="come_time" id="come_time" value="时间">
+            <p>帅哥/美女留个手机号码呗：<span>（必填）</span></p>
+            <p class="num">凭此号码领开业红包</p>
+            <input type="number" name="phonenumber" id="phonenumber" onchange="check()">
+            <p id="keyi"></p>
+            <p  id="num1">请填写邀请人的手机号：<span>可以帮他领取开业进口产品福袋哦</span></p>
+            
+            <input type="number" name="friend_phone" id="phonenumber1" onchange="checken()">
+            <p>备注：<span>（选填）</span></p>
+            <textarea name="msg" cols="40" rows="4" onkeyup="value=value.replace(/[^\w\u4E00-\u9FA5]/g, '')" placeholder="汉字/字母/数字"></textarea>
+            <p class="ptj"><input type="button" value="" onclick="tj()" id="tijiao" ></p>
+        </form>
+    </div>
+            </div>
+           <!--  <iframe src="index2.html" style="width:100%;height:100%">
+<p>Your browser does not support iframes.</p>
+</iframe> -->
+    </section>
+  </div>
+  </div>   
+<audio id="bgm" src="audio/SeeYouAgain.mp3" autoplay="autoplay" loop="loop" style="display: none; width: 0; height: 0;"></audio>
+<div class="bgm-btn"></div>
+
+<script type="text/javascript">
+      var mySwiper = new Swiper('.swiper-container',{
+                    mousewheelControl : true,  //鼠标滚轮控制slide滑动
+                    pagination : '.swiper-pagination',
+                    paginationClickable :true,
+                    direction : 'vertical',    //页面的滑动方向设置为垂直
+                    onInit: function(swiper){
+                            swiperAnimateCache(swiper);  //隐藏动画元素 
+                            swiperAnimate(swiper);    //初始化完成开始动画
+        },
+                   onSlideChangeEnd: function(swiper){
+                            swiperAnimate(swiper);    //每个slide切换结束时也运行当前slide动画
+      }   
+  });
+
+// 音乐按钮播放
+document.getElementById('bgm').play();
+$(".bgm-btn").bind("touchstart",function(e){  
+    //e.preventDefault();
+    //e.stopPropagation();
+    var dom = document.getElementById('bgm');
+    if( dom.paused ){
+        dom.play();
+        $(".bgm-btn").removeClass("mut");
+    }else{
+        dom.pause();
+        $(".bgm-btn").addClass("mut");
+    }
+});
+        //最后一页
+                var lastY;
+                $(".five").bind("touchmove", function(e) {
+                    if ($(this).scrollTop() <= 0) {
+                        //超出顶部
+                        var currentY = e.originalEvent.touches[0].clientY;
+                        if(currentY > (lastY || 0)){
+
+                        }else if(currentY < (lastY || 0)){
+                            e.stopPropagation();
+                        }
+                        lastY = currentY;
+                    }else if($(this).scrollTop() >= ($(this).children().height() - $(this).height())){
+                        //超出底部
+                        var currentY = e.originalEvent.touches[0].clientY;
+                        if(currentY > (lastY || 0)){
+                            e.stopPropagation();
+                        }else if(currentY < (lastY || 0)){
+
+                        }
+                        lastY = currentY;
+                    }else{
+                        //在内容区域滑动
+                        e.stopPropagation();
+                    }
+                });
+                </script>
+
+
+
+<script src="js/jquery.min.js"></script> 
+           
+        <script>
+            function checken(){
+                var checkphone=$('#phonenumber').val();
+                        var checkphone1=$('#phonenumber1').val();
+                        if (checkphone==checkphone1){
+                            alert('手机号码和邀请人手机号码不能相同');
+                        }
+            }
+            function tj(){
+                ///////验证
+                    function yz(){
+                        var checked=$('input:radio[name="sex"]:checked').val();
+                        var checked1=$('input:radio[name="address"]:checked').val();
+                        
+                        if (($("#name").val() == "") || ($("#phonenumber").val() == "") || ($("#come_time").val() == "")){
+                            alert("必须完整填写资料！");
+                            exit;
+                        }
+                        else{
+
+                            alert("提交成功");
+                            $("#tijiao").attr("disabled", true);
+                            $("#tijiao").css("background-image","url(images/2-btn1.jpg)");
+                        }
+                        
+                    }
+                    yz();
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url:"/home/index.php/Index/insert", //把表单数据发送到
+                    data:$('#myForm').serialize(),  //要发送的是ajaxFrm表单中的数据
+                    async: false,
+                    error: function(request) {
+                    // alert("发送请求失败！");
+                    },
+                    success: function(data) {
+                     
+                    alert("您已成功预约，红包已关联到您的手机号，下载我爱购APP即可激活使用。邀请5位好友成功预约，更有精美福袋相赠。转发活动立即邀请");
+                    window.setTimeout("window.location='http://active.woaigo.com/home/index.php/Index/index5/'",500); 
+                    }
+                    });
+                
+                    }
+                    
+        
+        
+                    
+                    //手机号码检测
+                function check(){
+                
+                    var pn = document.getElementById("phonenumber");
+                    
+                    var phone = pn.value;
+                    
+                    if(phone && /^0?1[3|4|5|8][0-9]\d{8}$/.test(phone)){
+
+     var phonenumber = $("#phonenumber").attr("value");
+             var  data1 ={
+                "phonenumber":phonenumber
+              };
+              //alert(data.youhui);
+            
+                $.ajax({                           
+                    type:'POST',                            
+                    data:data1,                           
+                    url:'/home/index.php/Index/checkphone',                           
+                    success:function(data){
+                                
+                                if(data=='1'){
+                                $("#keyi").html("*手机号码可用");
+                                   // alert('');
+                                   exit;
+                                }
+                                if(data=='0'){
+                                   alert('手机号码已注册');
+                                   $("#phonenumber").val("");
+                                   exit;
+                                }
+                                                         
+                    },
+                    dataType:'json',
+                    
+                }) 
+
+                    } 
+                    else{
+                    //号码错误
+                    alert("请输入正确的手机号码！");
+                    $("#phonenumber").val("");
+                    $("#keyi").html("");
+                    }
+                }
+        </script>
+</body>
+</html>
